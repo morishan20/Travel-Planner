@@ -1,12 +1,40 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
+<title>Travel Planner website</title>
 
+<link rel="stylesheet" href="./styles/style1.css">
 </head>
 <body>
-<h1>HELLO WORLD! </h1>
+    <header>
+        <nav>
+            <ul style="display: flex; list-style-type: none; justify-content: center; gap: 20px;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Travel Tips</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<h1 style="text-align: center;">TRAVEL Planner! </h1>
 
-<img src="/Users/Morishan/uni/Assignments/April 2026/Github/Travel Planner/image/pexels-rickyrecap-1586298.jpg" alt="Switzerland" width="400" height="300">
+<img src="./image/pexels-rickyrecap-1586298.jpg" alt="Switzerland" width="400" height="300">
 
+
+,<p>Switzerland is a beautiful country in Central Europe known for its alpine landscapes, lakes, and chocolate.</p>
+
+<form style="text-align: center; margin-top: 20px;">
+    <label for="destination">Choose a role in life:</label>
+    <select id="destination" name="destination">
+        <option></option></option>
+        <option>Switzerland</option>
+        <option>Italy</option>
+        <option>France</option>
+        <option>Spain</option>
+    </select>
+    <button type="submit">Plan My Trip</button>
+</form>
 </body>
 </html>
